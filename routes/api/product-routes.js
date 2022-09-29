@@ -13,8 +13,6 @@ router.get('/', async (req, res) => {
   } catch (err) {
     res.status(500).json(err);
   }
-  // find all products
-  // be sure to include its associated Category and Tag data
 });
 
 // get one product
@@ -109,6 +107,15 @@ router.put('/:id', (req, res) => {
 
 router.delete('/:id', (req, res) => {
   // delete one product by its `id` value
+  Product.destroy({
+    where: {
+      id: req.params.id,
+    },
+  })
+  .then((deleteProduct) => {
+    res.json(deleteProduct);
+  })
+  .catch((err) => res.json(err));
 });
 
 module.exports = router;

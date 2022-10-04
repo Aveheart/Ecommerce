@@ -4,12 +4,8 @@
 This project was to build the back end for an e-commerce site, working with Express.js API and configuring it to use Sequelize to interact with a MySQL database.
 
 ## Usage
-Category Demo:
-[category-demo.webm](https://user-images.githubusercontent.com/110785267/193306831-b86de06c-1c8b-460b-9033-f8fe9983fb40.webm)
-Products Demo:
-[products-demo.webm](https://user-images.githubusercontent.com/110785267/193306858-3c17d1e2-f065-497f-aa9e-2d747f431343.webm)
-Tags Demo:
-[tags-demo.webm](https://user-images.githubusercontent.com/110785267/193306874-b56b2f29-3ea9-4671-b3cb-0d7ba0ba5a75.webm)
+
+https://user-images.githubusercontent.com/110785267/193941868-0d83990a-1fab-4b46-95d1-2513bde59edb.mp4
 
 ## Installation
 N/A
